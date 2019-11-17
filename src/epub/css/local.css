@@ -70,3 +70,13 @@ section[epub|type~="epigraph"] > *{
 	}
 }
 /* End full-page epigraphs */
+
+/* Dedication in chapter 18 */
+blockquote[epub|type~="dedication"]{
+	font-variant: small-caps;
+	text-align: center;
+}
+blockquote[epub|type~="dedication"] span:nth-of-type(2),
+blockquote[epub|type~="dedication"] span:nth-of-type(5){
+	text-transform: uppercase;
+}
