@@ -1,23 +1,41 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
+footer{
+	text-align: right;
+}
+
+.signature,
+[epub|type~="z3998:salutation"]{
+	font-variant: small-caps;
+}
+
+[epub|type~="z3998:song"] p,
 [epub|type~="z3998:verse"] p{
 	text-align: left;
 	text-indent: 0;
 }
 
+[epub|type~="z3998:song"] p > span,
 [epub|type~="z3998:verse"] p > span{
 	display: block;
 	text-indent: -1em;
 	padding-left: 1em;
 }
 
+[epub|type~="z3998:song"] p > span + br,
 [epub|type~="z3998:verse"] p > span + br{
 	display: none;
 }
 
+[epub|type~="z3998:song"] + p,
 [epub|type~="z3998:verse"] + p{
 	text-indent: 0;
+}
+
+p span.i2{
+	text-indent: -1em;
+	padding-left: 3em;
 }
 
 /* All epigraphs */
@@ -70,6 +88,73 @@ section[epub|type~="epigraph"] > *{
 	}
 }
 /* End full-page epigraphs */
+
+[epub|type~="z3998:scene"]{
+	margin-left: 0;
+	margin-right: 0;
+}
+
+[epub|type~="z3998:scene"] table{
+	margin: 1em auto;
+	width: 100%;
+	border-collapse: collapse;
+}
+
+[epub|type~="z3998:scene"] tr:first-child td{
+	padding-top: 0;
+}
+
+[epub|type~="z3998:scene"] tr:last-child td{
+	padding-bottom: 0;
+}
+
+[epub|type~="z3998:scene"] td{
+	vertical-align: top;
+	padding: .5em;
+}
+
+[epub|type~="z3998:scene"] td:last-child{
+	padding-right: 0;
+}
+
+[epub|type~="z3998:scene"] td:first-child{
+	padding-left: 0;
+	width: 20%;
+}
+
+[epub|type~="z3998:scene"] td[epub|type~="z3998:persona"]{
+	hyphens: none;
+	text-align: right;
+}
+
+[epub|type~="z3998:stage-direction"]{
+	margin-bottom: .5em;
+	font-style: italic;
+}
+
+[epub|type~="z3998:stage-direction"]::before{
+	content: "(";
+	font-style: normal;
+}
+
+[epub|type~="z3998:stage-direction"]::after{
+	content: ")";
+	font-style: normal;
+}
+
+[epub|type~="z3998:persona"]{
+	font-variant: all-small-caps;
+	font-style: normal;
+}
+
+[epub|type~="z3998:scene"] footer{
+	text-align: left;
+}
+
+[epub|type~="z3998:scene"] footer b{
+	display: block;
+	text-align: center;
+}
 
 /* Dedication in chapter 18 */
 blockquote[epub|type~="dedication"]{
