@@ -44,18 +44,10 @@ p span.i2{
 	hyphens: none;
 }
 
-[epub|type~="epigraph"] i{
-	font-style: normal;
-}
-
 [epub|type~="epigraph"] cite{
 	margin-top: 1em;
 	font-style: normal;
 	font-variant: small-caps;
-}
-
-[epub|type~="epigraph"] cite i{
-	font-style: italic;
 }
 /* End all epigraphs */
 
@@ -147,20 +139,12 @@ section[epub|type~="epigraph"] > *{
 	font-style: normal;
 }
 
-[epub|type~="z3998:scene"] footer{
-	text-align: left;
-}
-
-[epub|type~="z3998:scene"] footer b{
-	display: block;
-	text-align: center;
-}
-
 /* Dedication in chapter 18 */
 blockquote[epub|type~="dedication"]{
 	font-variant: small-caps;
 	text-align: center;
 }
+
 blockquote[epub|type~="dedication"] span:nth-of-type(2),
 blockquote[epub|type~="dedication"] span:nth-of-type(5){
 	text-transform: uppercase;
