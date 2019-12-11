@@ -149,7 +149,7 @@ blockquote[epub|type~="dedication"]{
 	text-align: center;
 }
 
-blockquote[epub|type~="dedication"] span:nth-of-type(2),
-blockquote[epub|type~="dedication"] span:nth-of-type(5){
+blockquote[epub|type~="dedication"] b,
+blockquote[epub|type~="dedication"] span{
 	text-transform: uppercase;
 }
