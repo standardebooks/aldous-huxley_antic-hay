@@ -48,7 +48,7 @@
 		<dc:description id="description">A group of 1920s London socialites struggle with their futures.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;Theodore Gumbrill Junior is fed up with his job as a teacher, and tries a new tack as an inventor of pneumatic trousers. The development and marketing of these is set against his attempts to find love, and the backdrop of his friends’ and acquaintances’ similar quest for meaning in what seems to them a meaningless world.&lt;/p&gt;
-			&lt;p&gt;Aldous Huxley, although primarily known these days for his seminal work &lt;i&gt;Brave New World&lt;/i&gt;, gained fame in the 1920s as a writer of social satires such as this, his second novel. Condemned at the time for its frank treatment of sexuality and adultery—it was even banned in Australia—the book’s characters’ comic lack of stability following the society-wide alignment of the Great War still resonates today.&lt;/p&gt;
+			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/aldous-huxley"&gt;Aldous Huxley&lt;/a&gt;, although primarily known these days for his seminal work &lt;i&gt;Brave New World&lt;/i&gt;, gained fame in the 1920s as a writer of social satires such as this, his second novel. Condemned at the time for its frank treatment of sexuality and adultery—it was even banned in Australia—the book’s characters’ comic lack of stability following the society-wide alignment of the Great War still resonates today.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/60483</dc:source>
