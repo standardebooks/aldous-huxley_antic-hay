@@ -55,7 +55,7 @@
 		<dc:source>https://www.gutenberg.org/ebooks/60483</dc:source>
 		<dc:source>https://archive.org/details/in.ernet.dli.2015.94072</dc:source>
 		<meta property="se:production-notes">Typogrify is currently mis-correcting a quote mark in chapter 3, which should remain as committed.</meta>
-		<meta property="se:word-count">90115</meta>
+		<meta property="se:word-count">90112</meta>
 		<meta property="se:reading-ease.flesch">75.5</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Antic_Hay</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/aldous-huxley_antic-hay</meta>
