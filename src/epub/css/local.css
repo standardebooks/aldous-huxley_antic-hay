@@ -51,9 +51,9 @@ p span.i2{
 }
 
 [epub|type~="epigraph"] cite{
-	margin-top: 1em;
 	font-style: normal;
 	font-variant: small-caps;
+	margin-top: 1em;
 }
 /* End all epigraphs */
 
@@ -93,9 +93,9 @@ section[epub|type~="epigraph"] > *{
 }
 
 [epub|type~="z3998:scene"] table{
+	border-collapse: collapse;
 	margin: 1em auto;
 	width: 100%;
-	border-collapse: collapse;
 }
 
 [epub|type~="z3998:scene"] tr:first-child td{
@@ -107,8 +107,8 @@ section[epub|type~="epigraph"] > *{
 }
 
 [epub|type~="z3998:scene"] td{
-	vertical-align: top;
 	padding: .5em;
+	vertical-align: top;
 }
 
 [epub|type~="z3998:scene"] td:last-child{
@@ -127,8 +127,8 @@ section[epub|type~="epigraph"] > *{
 }
 
 [epub|type~="z3998:stage-direction"]{
-	margin-bottom: .5em;
 	font-style: italic;
+	margin-bottom: .5em;
 }
 
 [epub|type~="z3998:stage-direction"]::before{
@@ -142,8 +142,8 @@ section[epub|type~="epigraph"] > *{
 }
 
 [epub|type~="z3998:persona"]{
-	font-variant: all-small-caps;
 	font-style: normal;
+	font-variant: all-small-caps;
 }
 
 /* Dedication in chapter 18 */
