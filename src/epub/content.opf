@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/aldous-huxley/antic-hay</dc:identifier>
 		<dc:date>2019-12-11T00:02:31Z</dc:date>
@@ -46,11 +46,11 @@
 		<meta property="authority" refines="#subject-5">LCSH</meta>
 		<meta property="term" refines="#subject-5">sh85014576</meta>
 		<meta property="schema:genre">Fiction</meta>
-		<dc:description id="description">A group of 1920s London socialites struggle with their futures.</dc:description>
-		<meta id="long-description" property="se:long-description" refines="#description">
+		<dc:abstract>A group of 1920s London socialites struggle with their futures.</dc:abstract>
+		<dc:description>
 			&lt;p&gt;Theodore Gumbril Junior is fed up with his job as a teacher, and tries a new tack as an inventor of pneumatic trousers. The development and marketing of these is set against his attempts to find love, and the backdrop of his friends’ and acquaintances’ similar quest for meaning in what seems to them a meaningless world.&lt;/p&gt;
 			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/aldous-huxley"&gt;Aldous Huxley&lt;/a&gt;, although primarily known these days for his seminal work &lt;i&gt;Brave New World&lt;/i&gt;, gained fame in the 1920s as a writer of social satires such as this, his second novel. Condemned at the time for its frank treatment of sexuality and adultery—it was even banned in Australia—the book’s characters’ comic lack of stability following the society-wide alignment of the Great War still resonates today.&lt;/p&gt;
-		</meta>
+		</dc:description>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/60483</dc:source>
 		<dc:source>https://archive.org/details/in.ernet.dli.2015.94072</dc:source>
